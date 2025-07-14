@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Digital Hustle Manual</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      background-image: linear-gradient(45deg, rgba(0,255,0,0.05) 25%, transparent 25%, transparent 75%, rgba(0,255,0,0.05) 75%, rgba(0,255,0,0.05)),
+                        linear-gradient(45deg, rgba(0,255,0,0.05) 25%, transparent 25%, transparent 75%, rgba(0,255,0,0.05) 75%, rgba(0,255,0,0.05));
+      background-size: 40px 40px;
+    }
+
+    body::before {
+      content: "$ $ $ $ $ $ $ $ $ $ $ $ $";
+      position: fixed;
+      top: 20%;
+      left: 10%;
+      font-size: 120px;
+      color: rgba(0, 255, 0, 0.03);
+      white-space: nowrap;
+      pointer-events: none;
+      z-index: 0;
+      transform: rotate(-30deg);
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #00ffff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 1.5rem;
+      max-width: 800px;
+      margin: 80px auto;
+      border-radius: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      color: #00e676;
+    }
+
+    section p {
+      line-height: 1.6;
+    }
+
+    section img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
+      box-shadow: 0 0 8px rgba(0, 255, 100, 0.3);
+    }
+
+    a.video-link {
+      color: #00bfff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📘 Digital Hustle Manual</h1>
+  <nav>
+    <a href="#ads">Ads</a>
+    <a href="#web">Web Design</a>
+    <a href="#app">App Design</a>
+    <a href="#forex">Forex</a>
+    <a href="#betting">Betting</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section id="ads">
+    <h2>📢 Paid Ads + AdMob</h2>
+    <p>Mastering Paid Ads means running Facebook, Instagram, Google, and other platform ads effectively. AdMob lets you earn from your app traffic via banners, interstitials and rewarded video ads.</p>
+    <ul>
+      <li>Setup AdMob & link your app</li>
+      <li>Use ad units in platforms like AppCreator24</li>
+      <li>Track impressions and earnings</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1587614382346-4ec1f3d80749?auto=format&fit=crop&w=800&q=80" alt="Ad Example">
+    <p><a class="video-link" href="https://www.youtube.com/results?search_query=admob+integration" target="_blank">📺 Watch AdMob Tutorials</a></p>
+  </section>
+
+  <section id="web">
+    <h2>🌐 Web Design</h2>
+    <p>Use HTML, CSS, and JavaScript or builders like WordPress to design websites. Platforms like Figma help plan your layout first.</p>
+    <img src="https://images.unsplash.com/photo-1581276879432-15a19d654956?auto=format&fit=crop&w=800&q=80" alt="Web Design">
+    <p><a class="video-link" href="https://www.youtube.com/results?search_query=web+design+for+beginners" target="_blank">📺 Web Design Basics</a></p>
+  </section>
+
+  <section id="app">
+    <h2>📱 App Design</h2>
+    <p>Build Android apps using tools like AppCreator24, Kodular, or Flutter. Focus on user experience, navigation flow, and testing.</p>
+    <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=800&q=80" alt="App Interface">
+    <p><a class="video-link" href="https://www.youtube.com/results?search_query=how+to+design+apps" target="_blank">📺 App UI Design Tips</a></p>
+  </section>
+
+  <section id="forex">
+    <h2>💱 Forex</h2>
+    <p>Trade currencies using MetaTrader. Learn technical analysis, indicators, and risk management to avoid major losses.</p>
+    <img src="https://images.unsplash.com/photo-1611078489935-0cb9640a71a3?auto=format&fit=crop&w=800&q=80" alt="Forex Trading">
+    <p><a class="video-link" href="https://www.youtube.com/results?search_query=forex+trading+for+beginners" target="_blank">📺 Beginner Forex Lessons</a></p>
+  </section>
+
+  <section id="betting">
+    <h2>🎲 Betting</h2>
+    <p>Use logic, odds, and staking strategies to bet smart. Don’t chase losses. Study sports insights and manage bankroll wisely.</p>
+    <img src="https://images.unsplash.com/photo-1603791449762-701b0f1dd9e7?auto=format&fit=crop&w=800&q=80" alt="Betting Tips">
+    <p><a class="video-link" href="https://www.youtube.com/results?search_query=how+to+win+sports+betting" target="_blank">📺 Sports Betting Guide</a></p>
+  </section>
+
+</div>
+
+</body>
+</html>
